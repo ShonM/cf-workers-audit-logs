@@ -2,6 +2,7 @@ name = "cf-workers-audit-logs"
 workers_dev = true
 type = "javascript"
 main = "index.js"
+compatibility_date = "2023-07-10"
 
 [triggers]
 crons = ["* * * * *"]
